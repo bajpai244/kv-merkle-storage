@@ -1,4 +1,4 @@
-module kv-merkle-storage
+module github.com/bajpai244/kv-merkle-storage
 
 go 1.18
 
