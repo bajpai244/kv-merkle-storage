@@ -6,7 +6,7 @@ import (
 	bolt "go.etcd.io/bbolt"
 )
 
-func getKVStorage(storagePath string) (*store.BoltStore, error) {
+func NewKVStorage(storagePath string) (*store.BoltStore, error) {
 
 	b, err := bolt.Open(storagePath, 0600, nil)
 	if err != nil {
