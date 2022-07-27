@@ -1,7 +1,6 @@
 package kvMerkleStorage
 
 import store "github.com/demonsh/smt-bolt"
-
 import (
 	bolt "go.etcd.io/bbolt"
 )
